@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        let x = "john"
+        let y = new String('john');
+        let n = (x == y)
+        console.log("type of n is", n);
+
+        let z = 345;
+        let q = null;
+        let i = undefined
+        document.getElementById("demo").innerHTML =
+            "TYPE OF 'x' IS::" + typeof x + "<br/>"
+            + "TYPE OF 'Y' IS::" + typeof y + "<br>"
+            + "TYPE OF 'Z' IS::" + typeof z + "<br/>"
+            + "TYPE OF 'q' IS::" + typeof q + "<br/>"
+            + "TYPE OF 'i' IS::" + typeof i + "<br/>";
+        + "TYPE OF 'n' IS::" + typeof n
+
+        let text8 = "hi hello"
+        let text8array = text8.split("|");
+        console.log("converted array is::",
+            text8array);
+
+    </script>
+
+
+</body>
+
+</html>
